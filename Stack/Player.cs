@@ -41,7 +41,7 @@ public class Player
             {
                 Console.WriteLine($"\nTop element after pop: {peekItem}");
             }
-            else { Console.WriteLine($"\nNo More elements at the top of stack"); }
+            else { Console.WriteLine($"\nNo elements at the top of stack"); }
             Console.WriteLine($"Is stack empty? {_stack.IsEmpty()}");
             Console.WriteLine();
         }
